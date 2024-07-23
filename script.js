@@ -24,7 +24,7 @@ function playGame() {
 		} else {
 			switch (humanChoice) {
 				case 'rock':
-					if (ComputerChoice == 'scisso') {
+					if (ComputerChoice == 'scissor') {
 						console.log('You Win, computer choose scissor!')
 						humanScore += 1
 					} else {
